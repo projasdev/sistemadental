@@ -1,0 +1,15 @@
+{
+  "name": "dental-gravity",
+  "version": "1.0.0",
+  "description": "Sistema Full Stack de Gestión Dental de Citas, Odontogramas Interactivos y Seguimiento de Ortodoncia con Horarios de Atención y Reportes",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "node server/seed.js"
+  },
+  "keywords": ["dental", "odontograma", "ortodoncia", "citas", "clinica"],
+  "author": "DentalGravity Team",
+  "license": "ISC"
+}

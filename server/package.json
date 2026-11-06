@@ -1,0 +1,14 @@
+{
+  "name": "dental-gravity-server",
+  "version": "1.0.0",
+  "description": "Backend API para Sistema de Gestión Dental de Citas, Odontogramas y Ortodoncia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3"
+  }
+}
